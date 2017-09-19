@@ -13,7 +13,7 @@ class LogstashServer(protobix.SampleProbe):
 
     def _init_probe(self):
         if self.options.host == 'localhost':
-            self.hostname = socket.getfqdn()
+            self.hostname = socket.gethostname()
         else:
             self.hostname = self.options.host
         self.discovery_key = 'logstash.node.discovery'
