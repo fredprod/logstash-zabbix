@@ -1,5 +1,7 @@
 # logstash-zabbix
 
+Work with Logstash 5.x versions.
+
 ## Install requirements
 
 From pip:
@@ -8,7 +10,8 @@ From pip:
 
 ## Configuration
 
-Import Template in Zabbix with Template_Logstash.xml
+Import Template in Zabbix with Template_Logstash.xml if you are using Zabbix 3.4.
+If you are using Zabbix 3.2, you can use Template_Logstash-32.xml.
 
 Put logstash.py in UserParameter in zabbix agent configuration.
 
