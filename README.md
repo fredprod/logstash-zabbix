@@ -1,6 +1,8 @@
 # logstash-zabbix
 
 Work with Logstash 5.x versions.
+Please use logstash-v6x.py if you are using logstash v6 and rename it logstash.py to match example.
+A new template for Zabbix 3.4 is also needed.
 
 ## Install requirements
 
