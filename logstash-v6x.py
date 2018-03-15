@@ -92,7 +92,7 @@ class LogstashServer(protobix.SampleProbe):
             else:
                 real_key = zbx_key.format(events_section) + '.{0}'
                 data.update(
-                    self._process_items(real_key, odes_stats['events'][events_section])
+                    self._process_items(real_key, nodes_stats['events'][events_section])
                 )
         return data
 
